@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpapercave.com/wp/F7KzAgQ.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        .title {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: -5%;
+        }
+
+        .box {
+            border:
+                1px solid transparent;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 40px 5px;
+            position: absolute;
+            width: 250px;
+            top: 15%;
+            left: 35%;
+            color: black;
+        }
+
+        .input input {
+            padding: 5px 10px;
+            margin-top: 15px;
+            background: transparent;
+            outline: none;
+            border: none;
+            border: 1px solid rgb(167, 167, 167);
+            border-radius: 20px;
+            width: 90%;
+            color: white;
+        }
+
+        .input input::placeholder {
+            color: white;
+
+        }
+
+        .signup {
+            text-align: center;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-top: 25px;
+            padding: 5px 40px;
+            background: transparent;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        .signup:hover {
+            border: 1px solid rgb(167, 167, 167);
+            box-shadow: 1px 1px 2px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box">
+        <h2 class="title">Sign up</h2>
+        <div class="input">
+            <input type="text" placeholder="Name" required>
+        </div>
+        <div class="input">
+            <input type="email" placeholder="email" required>
+        </div>
+        <div class="input">
+            <input type="password" placeholder="Passward" required>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Confirm Passward">
+        </div>
+
+        <button class="signup" type="submit"><a style="text-decoration: none; color: white;" href="contest_tour_logIn.html">Sign Up</a></button>
+
+    </div>
+
+</body>
+
+</html>

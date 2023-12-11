@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpapercave.com/wp/F7KzAgQ.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+    ul {
+      float: right;
+      list-style-type: none;
+    }
+
+    ul li {
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    li a {
+      text-decoration: none;
+      color: aliceblue;
+      padding: 2px 5px;
+      border: 1px solid transparent;
+      transition: 0.7s ease;
+      border-radius: 10px;
+
+
+    }
+
+    ul li a:hover {
+      background-color: antiquewhite;
+      color: black;
+    }
+
+    .active {
+      background-color: antiquewhite;
+      color: black;
+    }
+
+    .logo {
+      position: absolute;
+      margin-left: 15px;
+    }
+
+    .logo u {
+      color: white;
+    }
+
+    /* img1 style */
+    .img1 {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      height: 150px;
+      width: 250px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px black;
+    }
+
+    .img1:hover {
+      opacity: 0.3;
+      transition: 1s ease;
+      border: 1px solid whitesmoke;
+    }
+
+    h2 {
+      color: aliceblue;
+      padding-top: 70px;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    div a {
+      text-decoration: none;
+    }
+
+    .middle {
+      opacity: 0;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+      transition: 2s ease;
+    }
+
+    div a h3.name1 {
+      color: rgb(255, 255, 255);
+      position: absolute;
+      top: 60%;
+      left: 18%;
+      opacity: 1;
+    }
+
+    /* img2 style */
+    .img2 {
+      position: absolute;
+      top: 40%;
+      left: 55%;
+      height: 150px;
+      width: 250px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      box-shadow: 50px 50px 50px black;
+    }
+
+    .img2:hover {
+      opacity: 0.3;
+      transition: 1s ease;
+      border: 1px solid whitesmoke;
+    }
+
+    .middle1 {
+      opacity: 0;
+    }
+
+    .container1:hover .middle1 {
+      opacity: 1;
+      transition: 2s ease;
+    }
+
+    div a h3.name2 {
+      color: rgb(255, 255, 255);
+      position: absolute;
+      top: 60%;
+      left: 60%;
+      opacity: 1;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="logo"><u>
+          <h3 style="margin-left: 25px;">Sudarshan </h3>
+          <h3>Tours & Travels</h3>
+        </u></div>
+      <ul>
+        <li><a href="contest__tour.html">Home</a></li>
+        <li><a href="contest_tour_about.html">About Us</a></li>
+        <li><a class="active" href="contest_tour_holiday.html">Holiday Plans</a></li>
+        <!-- <li><a href="">Contact</a></li> -->
+        <li><a href="contest_tour_logIn.html">Sign In</a></li>
+      </ul>
+      <h2>
+        <marquee behavior="" width="50%" direction="right">Plan your trip</marquee>
+      </h2>
+
+      <div class="container"><a href="contest_domestic_trips.html"><img class="img1"
+            src="https://www.ancient-origins.net/sites/default/files/field/image/Indias-forts_0.jpg" alt="">
+          <div class="middle">
+            <h3 class="name1">Domestic Trips</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="container1"><a href="contest_international_trip.html"><img class="img2"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/23/0a/14/caption.jpg?w=500&h=400&s=1"
+            alt="">
+          <div class="middle1">
+            <h3 class="name2">International Trips</h3>
+          </div>
+        </a>
+      </div>
+  </header>
+</body>
+
+</html>
